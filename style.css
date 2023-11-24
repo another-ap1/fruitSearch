@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right,blue,green);
+}
+
+input {
+  flex: 1;
+  height: 50px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+  color: gray;
+}
+.row{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.search-container {
+  width: 600px;
+  background: #fff;
+  margin: 200px auto 0;
+  border-radius: 10px;
+}
+.suggestions ul{
+  border-top: 1px solid #999;
+  padding: 15px 10px;
+}
+.suggestions ul li{
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+}
+.suggestions ul li:hover{
+  background-color: lightgrey;
+}
+.suggestions{
+  max-height: 600px;
+  overflow-y: scroll;
+}
